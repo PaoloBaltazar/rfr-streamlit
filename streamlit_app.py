@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('Prediction of Academic Performance Level')
 
-st.write('Hello world!')
+st.write('This app use a random forest regression')
