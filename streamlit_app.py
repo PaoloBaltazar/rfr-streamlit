@@ -21,4 +21,8 @@ y
 # Data preparation
 with st.sidebar:
   st.header('Input features')
+  attendance = st.number_input('Attendance', value=None, placeholder="Insert Attendance")
+  prev_grade = st.number_input('Previous Grade', value=None, placeholder="Insert Previous Grade")
+  financial_situation = st.slider('Financial Situation', 1, 5, 3)
+  learning_environment = st.slider('Learning Environmnet', 1, 5, 3)
   
