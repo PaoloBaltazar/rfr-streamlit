@@ -2,4 +2,17 @@ import streamlit as st
 
 st.title('Prediction of Academic Performance Level')
 
-st.write('This app use a random forest regression')
+st.info('This app use a random forest regression')
+
+with st.expander('Data'):
+  st.write('**Raw data**')
+  df = pd.read_csv('https://raw.githubusercontent.com/PaoloBaltazar/rfr-thesis/master/data_100.csv')
+  df
+
+st.write('**X**')
+X = df.drop('grades', axis=1)
+X
+
+st.write('**y**')
+y = df.grades
+y
