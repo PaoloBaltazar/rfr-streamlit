@@ -17,3 +17,8 @@ X
 st.write('**y**')
 y = df.grades
 y
+
+# Data preparation
+with st.sidebar:
+  st.header('Input features')
+  
