@@ -33,13 +33,6 @@ with st.sidebar:
           'financial_situation': financial_situation,
           'learning_environment': learning_environment,
           'prev_grade': prev_grade}
-  
-  input_df = pd.DataFrame(data, index=[0])
-  input_penguins pd.concat([input_df, X], axis=0)
-
-# Model Training
-rfr = RandomForestRegression()
-rfr.fit(
 
 
   
