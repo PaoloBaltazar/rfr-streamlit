@@ -1,4 +1,4 @@
-# 📦 Random Forest Regression
+# 📦 Grade Predictor App
 
 
 
